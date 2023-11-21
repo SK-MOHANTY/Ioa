@@ -1,7 +1,11 @@
 import RajaPic from '../assets/raja.webp'
 import Manabasa from '../assets/manabasa.jpg'
+import { useNavigate } from 'react-router-dom';
 
 const Fesitvals = () => {
+
+  const navi = useNavigate();
+
   return (
     <div className="py-12 bg-blue-200">
       <div className="w-[1400px] mx-auto my-0 py-10 ">
@@ -49,7 +53,7 @@ const Fesitvals = () => {
   
         </div>
       </div>
-      <div className=' flex justify-center'><button className='text-lg text-white p-3 bg-cyan-700 rounded'>Load More</button> </div>
+      <div className=' flex justify-center'><button onClick={()=>navi("/festival")} className='text-lg text-white p-3 bg-cyan-700 rounded'>Load More</button> </div>
     </div>
   );
 };

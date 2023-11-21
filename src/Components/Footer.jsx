@@ -1,5 +1,9 @@
+import { Link, useNavigate } from "react-router-dom"
 
 const Footer = () => {
+
+  const navi = useNavigate()
+
   return (
     <div className="py-12 bg-gray-600" >
         <div className="w-[1400px] mx-auto my-0 ">
@@ -7,8 +11,8 @@ const Footer = () => {
                 <h4 className=" text-5xl text-white font-semibold " >Irish Odia Association</h4>
                 <p className="text-2xl text-white font-medium" >Being Good Being Odia</p>
                 <div className="flex mt-8 gap-5" >
-                    <button className=" px-8 py-3 bg-cyan-700 text-white rounded font-semibold text-lg shadow-xl " >Donation</button>
-                    <button className=" px-8 py-3 bg-cyan-700 text-white rounded font-semibold text-lg shadow-xl " >Contact</button>
+                    <button className=" px-8 py-3 bg-cyan-700 text-white rounded font-semibold text-lg shadow-xl " > <Link to="/donation">Donation</Link></button>
+                    <button onClick={()=>navi("/contact")} className=" px-8 py-3 bg-cyan-700 text-white rounded font-semibold text-lg shadow-xl " >Contact</button>
                 </div>
             </div>
             <hr className="bg-white mt-10" />

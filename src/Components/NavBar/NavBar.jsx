@@ -21,7 +21,7 @@ const NavBar = () => {
         
         <div className="h-20 bg-slate-300 px-20 flex items-center justify-between  " >
         <div>
-        <img className="h-15 w-20" src={ioaImage} alt=""  />
+        <img className="h-15 rounded-full w-20" src={ioaImage} alt=""  />
         </div>
 
         
@@ -35,7 +35,7 @@ const NavBar = () => {
             <li><Link className="font-medium text-base" to='/upcomingevent'>Upcoming events</Link></li>
             <li><Link className="font-medium text-base" to='/contact'>Contact</Link></li>
             <li><Link className="font-medium text-base" to='/ireland'>Ireland</Link></li>
-            <li><Link className="font-medium text-base" to='/epatrika'>E-patrika</Link></li>
+            <li><Link className="font-medium text-base" to='/epatrika'>E-Patrika</Link></li>
             <li className="flex relative group">
             <li><Link className="font-medium text-base mr-1" to='/odias'>Odias</Link></li>    
              

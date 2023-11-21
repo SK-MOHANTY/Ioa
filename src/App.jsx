@@ -24,6 +24,7 @@ import HeritagePage from "./Pages/HeritagePage"
 import LeadersPage from "./Pages/LeadersPage"
 import OdiasNowPage from "./Pages/OdiasNowPage"
 import PlaceToVisitPage from "./Pages/PlaceToVisitPage"
+import Donation from "./Pages/Donation"
 
 
 
@@ -55,6 +56,7 @@ function App() {
       <Route path="/placetovisit" element={<PlaceToVisitPage />}/>
       <Route path="/becomeamember" element={<BecomeAMemberPage />}/>
       <Route path="/signin" element={<SignIn/>}/>
+      <Route path="/donation" element={<Donation/>}/>
     </Routes>
     </>
   )
