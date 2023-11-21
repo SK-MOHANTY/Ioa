@@ -7,7 +7,7 @@ import GalleryPage from "./Pages/GalleryPage"
 import OdiasPage from "./Pages/OdiasPage"
 import EPatrikaPage from "./Pages/EPatrikaPage"
 import IrelandPage from "./Pages/IrelandPage"
-
+import BecomeAMemberPage from "./Pages/BecomeAMemberPage"
 
 
 import React, { useState } from 'react';
@@ -51,6 +51,7 @@ function App() {
       <Route path="/leaders" element={<LeadersPage />}/>
       <Route path="/odiasnow" element={<OdiasNowPage />}/>
       <Route path="/placetovisit" element={<PlaceToVisitPage />}/>
+      <Route path="/becomeamember" element={<BecomeAMemberPage />}/>
     </Routes>
     </>
   )
