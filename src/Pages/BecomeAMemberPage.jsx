@@ -6,4 +6,4 @@ const RegisterPage = () => {
   )
 }
 
-export default RegisterPagef
+export default RegisterPage
