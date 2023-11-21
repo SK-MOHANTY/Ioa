@@ -15,7 +15,7 @@ const ContactPage = () => {
                 <input className='border px-2 py-4 bg-slate-50 rounded-md '  type="text" name="name" placeholder='Name' />
                 <input className='border px-2 py-4 bg-slate-50 rounded-md '  type="email" name="name" placeholder='Email' />
                 <textarea className='border py-1 px-2 bg-slate-50 rounded-md '  name="message" cols="30" rows="5" placeholder='Type Message' ></textarea>
-                <input type="submit" className='bg-blue-900 px-5 py-3 text-white rounded-md font-medium '  value="Submit" />
+                <input type="submit" className='bg-blue-900 px-5 py-3 text-white rounded-md font-medium cursor-pointer'  value="Submit" />
             </form>
         </div>
     </div>

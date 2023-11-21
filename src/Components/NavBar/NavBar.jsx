@@ -15,7 +15,7 @@ const NavBar = () => {
             </div> 
         <div className="flex gap-6 justify-center items-center" >
           <span> <Link className="text-cyan-700 font-medium" to='/becomeamember'>Become a Member</Link></span>
-          <span className="font-medium text-white text-sm px-3 py-1 rounded bg-blue-700" > <Link>Sign In</Link> / <Link>Sign UP</Link> </span>
+          <span className="font-medium text-white text-sm px-3 py-1 rounded bg-cyan-700" > <Link to='/signin'>Sign In</Link></span>
         </div>
         </div>
         
