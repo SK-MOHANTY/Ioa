@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className="py-12 bg-gray-600" >
-        <div className="w-[1400px] mx-auto my-0 ">
+        <div className="w-full mx-auto my-0 ">
             <div className="flex flex-col items-center gap-2" >
                 <h4 className=" text-5xl text-white font-semibold " >Irish Odia Association</h4>
                 <p className="text-2xl text-white font-medium" >Being Good Being Odia</p>

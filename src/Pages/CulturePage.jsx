@@ -28,7 +28,7 @@ const Culture = () => {
                 
             </div>
          </div>
-         <div className="w-[1400px] mx-auto my-0 flex p-4 gap-5" >
+         <div className="w-[1400px] mx-auto my-0 flex p-4 gap-5 bg-blue-200" >
          <div className="w-1/2  flex flex-col justify-start gap-5  " >
                 <p className="font-normal text-xl text-justify pt-20" >
                 Odisha's culture is a vibrant tapestry of traditional arts, classical dance (Odissi), and folklore expressed through captivating Pattachitra paintings. The state's temples, like the Konark Sun Temple, stand as architectural masterpieces. With diverse festivals like Rath Yatra and Raja Parba, Odisha celebrates its rich heritage, inviting all to experience its cultural kaleidoscope.  

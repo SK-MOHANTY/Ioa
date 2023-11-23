@@ -5,7 +5,7 @@ import ioaImage from "../../assets/ioa1.jpeg"
 const NavBar = () => {
   
   return (
-    <div  >
+    <div className="" >
         <div className="h-10 px-20 flex items-center justify-between" >
         <div className="justify-between flex gap-5 text-xl text-black">
             <div className="text-cyan-700" ><i className="fa fa-facebook-official"></i></div>
@@ -25,7 +25,7 @@ const NavBar = () => {
         </div>
 
         
-        <nav  >
+        <nav className="hidden lg:block"  >
            
 
            <ul className="flex items-center gap-10">
@@ -66,10 +66,3 @@ const NavBar = () => {
 export default NavBar
 
 
-{/* <div className="justify-between flex gap-5 text-xl text-black">
-            <div><i className="fa fa-facebook-official"></i></div>
-           <div><i className="fa fa-twitter-square"></i></div>
-           <div><i className="fa fa-whatsapp"></i></div>
-           <div><i className="fa fa-envelope"></i></div>
-            </div> 
-        <div><button className="p-3 bg-cyan-700 rounded-lg">sign in/sign up</button></div> */}

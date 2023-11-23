@@ -26,7 +26,7 @@ export const FestivalPage = () => {
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
                 <img className='h-[190px]' src={RajaPic} alt="" />
-                <h5 className="text-2xl font-semibold text-center" >Rojo</h5>
+                <h5 className="text-2xl font-semibold text-center" >Raja</h5>
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
                 <img className='h-[190px]' src='https://sambadenglish.com/wp-content/uploads/2020/11/kartika-purnima-741x430.jpg' alt="" />

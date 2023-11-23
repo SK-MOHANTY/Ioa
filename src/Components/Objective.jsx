@@ -4,7 +4,7 @@ import ObjImage from '../assets/about.jpeg'
 const Objective = () => {
   return (
     <div className="bg-slate-100 ">
-        <div className="w-[1400px] mx-auto my-0 flex gap-7" >
+        <div className="w-full mx-auto my-0 sm:w-full flex gap-7" >
             <div className="w-1/2 flex items-center justify-center py-10" >
                 <img className='w-[60%]' src={ObjImage} alt="Objective-IMage" />
             </div>
