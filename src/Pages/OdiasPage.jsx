@@ -1,7 +1,13 @@
 import React from 'react'
+import { Link, useNavigate } from "react-router-dom"
+
 
 const OdiasPage = () => {
+
+  const navi = useNavigate()
+
   return (
+    
     
     <div>
     <div className="  bg-blue-200">
@@ -16,7 +22,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto w-54' src="https://odishanewsinsight.com/wp-content/uploads/2015/01/Odisha-Tourism.jpg " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>CULTURE</h3>
+          <h3 onClick={()=>navi("/culture")} className='text-center text-4xl text-cyan-700 cursor-pointer mt-2 '>CULTURE</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -25,7 +31,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://im.rediff.com/news/2020/jun/22rath-yatra1.jpg " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>FESTIVAL</h3>
+          <h3 onClick={()=>navi("/festival")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>FESTIVAL</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -34,7 +40,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://odishabytes.com/wp-content/uploads/2021/03/Pakhala2-1200x994.jpg " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>FOOD</h3>
+          <h3 onClick={()=>navi("/food")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>FOOD</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -43,7 +49,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://i0.wp.com/www.orissapost.com/wp-content/uploads/2019/04/Coir-craft.jpeg?resize=500%2C282 " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>CRAFT</h3>
+          <h3 onClick={()=>navi("/craft")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>CRAFT</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -52,7 +58,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp__Q9Kj5MQf1j-eOomOzJ4esJ4oRw6tKd3A&usqp=CAU " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>ART</h3>
+          <h3 onClick={()=>navi("/art")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>ART</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -61,7 +67,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhIBYbh2890XiK1JANfe9xYxw8AFEy8m8yg&usqp=CAU " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>HISTORY</h3>
+          <h3 onClick={()=>navi("/history")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>HISTORY</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -70,7 +76,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgU6qw7pFHZ7o2PHQDM0cUyKnRSqBVo_VNUDtWE2UcFUK4-eI3VMfzpsTHZVEdI_9E_UM&usqp=CAU " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>HERITAGE</h3>
+          <h3 onClick={()=>navi("/heritage")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>HERITAGE</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -79,7 +85,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-56 w-54' src="https://im.hunt.in/cg/cuttack/City-Guide/Legends.jpg " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>LEADERS</h3>
+          <h3 onClick={()=>navi("/leaders")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>LEADERS</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -88,7 +94,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCgN1Q1SeCiyHh30whei1-FmiiD93QA4QQnqMVhjmJT7bEh1h " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>ODIAS NOW</h3>
+          <h3 onClick={()=>navi("/odiasnow")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>ODIAS NOW</h3>
           </div>
           <div>
           <div className="flex flex-col  gap-3 bg-white shadow-lg p-4 rounded-full overflow-hidden" >
@@ -97,7 +103,7 @@ const OdiasPage = () => {
           <img className='rounded-full m-auto h-60 w-54' src="https://www.tripsavvy.com/thmb/CqvMyrnnVy5fNLFYTr5zW13s-XE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/_DSC0713_Snapseed_Darkroom-819d0b229974460e8141622c4494e2ed.jpg " alt="" /></div>
           </div>
           </div>
-          <h3 className='text-center text-4xl text-cyan-700 mt-2 '>PLACE TO VISIT</h3>
+          <h3 onClick={()=>navi("/placetovisit")} className='text-center text-4xl text-cyan-700 mt-2 cursor-pointer '>PLACE TO VISIT</h3>
           </div>
           </div>
           </div>

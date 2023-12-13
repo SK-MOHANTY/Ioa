@@ -37,7 +37,7 @@ export const FestivalPage = () => {
                 <h5 className="text-2xl font-semibold text-center" >Chadakhai</h5>
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
-                <img className='h-[190px]' src='https://imgeng.jagran.com/images/2023/apr/odisha-day-20231680320903573.jpg' alt="" />
+                <img className='h-[190px]' src='https://images.pexels.com/photos/17349035/pexels-photo-17349035/free-photo-of-rath-11.jpeg?auto=compress&cs=tinysrgb&w=800' alt="" />
                 <h5 className="text-2xl font-semibold text-center" >Utkal Divas</h5>
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
@@ -89,8 +89,8 @@ export const FestivalPage = () => {
                 <h5 className="text-2xl font-semibold text-center" >Akhshya Tritiya</h5>
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
-                <img className='h-[190px]' src='https://i0.wp.com/www.opindia.com/wp-content/uploads/2019/09/65303113_506019636605528_5326940429172357198_n.jpg?ssl=1' alt="" />
-                <h5 className="text-2xl font-semibold text-center" >Nuakhai</h5>
+                <img className='h-[190px]' src='https://gumlet.assettype.com/freepressjournal/2023-07/39271581-b3b0-4911-ae53-ac8082bc7655/SS.jpg' alt="" />
+                <h5 className="text-2xl font-semibold text-center" >Chietau Amavashya</h5>
             </div>
             <div className="flex flex-col gap-3 bg-white shadow-lg pb-3 rounded-lg overflow-hidden" >
                 <img className='h-[190px]' src='https://images.news18.com/ibnlive/uploads/2022/10/untitled-2-166480952816x9.jpg' alt="" />
